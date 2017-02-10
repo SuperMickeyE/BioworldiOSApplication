@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0BAC661E4E5A9300703BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0BAC651E4E5A9300703BE0 /* AppDelegate.swift */; };
+		BB0BAC681E4E5A9300703BE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0BAC671E4E5A9300703BE0 /* ViewController.swift */; };
+		BB0BAC6B1E4E5A9300703BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0BAC691E4E5A9300703BE0 /* Main.storyboard */; };
+		BB0BAC6D1E4E5A9300703BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0BAC6C1E4E5A9300703BE0 /* Assets.xcassets */; };
+		BB0BAC701E4E5A9300703BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0BAC6E1E4E5A9300703BE0 /* LaunchScreen.storyboard */; };
+		BB0BAC7B1E4E5A9300703BE0 /* BioWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0BAC7A1E4E5A9300703BE0 /* BioWorldTests.swift */; };
+		BB0BAC861E4E5A9300703BE0 /* BioWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0BAC851E4E5A9300703BE0 /* BioWorldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB0BAC771E4E5A9300703BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB0BAC5A1E4E5A9300703BE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0BAC611E4E5A9300703BE0;
+			remoteInfo = BioWorld;
+		};
+		BB0BAC821E4E5A9300703BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB0BAC5A1E4E5A9300703BE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0BAC611E4E5A9300703BE0;
+			remoteInfo = BioWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB0BAC621E4E5A9300703BE0 /* BioWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0BAC651E4E5A9300703BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB0BAC671E4E5A9300703BE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB0BAC6A1E4E5A9300703BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB0BAC6C1E4E5A9300703BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB0BAC6F1E4E5A9300703BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB0BAC711E4E5A9300703BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0BAC761E4E5A9300703BE0 /* BioWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0BAC7A1E4E5A9300703BE0 /* BioWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioWorldTests.swift; sourceTree = "<group>"; };
+		BB0BAC7C1E4E5A9300703BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0BAC811E4E5A9300703BE0 /* BioWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0BAC851E4E5A9300703BE0 /* BioWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioWorldUITests.swift; sourceTree = "<group>"; };
+		BB0BAC871E4E5A9300703BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB0BAC5F1E4E5A9300703BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0BAC731E4E5A9300703BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0BAC7E1E4E5A9300703BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB0BAC591E4E5A9300703BE0 = {
+			isa = PBXGroup;
+			children = (
+				BB0BAC641E4E5A9300703BE0 /* BioWorld */,
+				BB0BAC791E4E5A9300703BE0 /* BioWorldTests */,
+				BB0BAC841E4E5A9300703BE0 /* BioWorldUITests */,
+				BB0BAC631E4E5A9300703BE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB0BAC631E4E5A9300703BE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB0BAC621E4E5A9300703BE0 /* BioWorld.app */,
+				BB0BAC761E4E5A9300703BE0 /* BioWorldTests.xctest */,
+				BB0BAC811E4E5A9300703BE0 /* BioWorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB0BAC641E4E5A9300703BE0 /* BioWorld */ = {
+			isa = PBXGroup;
+			children = (
+				BB0BAC651E4E5A9300703BE0 /* AppDelegate.swift */,
+				BB0BAC671E4E5A9300703BE0 /* ViewController.swift */,
+				BB0BAC691E4E5A9300703BE0 /* Main.storyboard */,
+				BB0BAC6C1E4E5A9300703BE0 /* Assets.xcassets */,
+				BB0BAC6E1E4E5A9300703BE0 /* LaunchScreen.storyboard */,
+				BB0BAC711E4E5A9300703BE0 /* Info.plist */,
+			);
+			path = BioWorld;
+			sourceTree = "<group>";
+		};
+		BB0BAC791E4E5A9300703BE0 /* BioWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0BAC7A1E4E5A9300703BE0 /* BioWorldTests.swift */,
+				BB0BAC7C1E4E5A9300703BE0 /* Info.plist */,
+			);
+			path = BioWorldTests;
+			sourceTree = "<group>";
+		};
+		BB0BAC841E4E5A9300703BE0 /* BioWorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0BAC851E4E5A9300703BE0 /* BioWorldUITests.swift */,
+				BB0BAC871E4E5A9300703BE0 /* Info.plist */,
+			);
+			path = BioWorldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB0BAC611E4E5A9300703BE0 /* BioWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0BAC8A1E4E5A9300703BE0 /* Build configuration list for PBXNativeTarget "BioWorld" */;
+			buildPhases = (
+				BB0BAC5E1E4E5A9300703BE0 /* Sources */,
+				BB0BAC5F1E4E5A9300703BE0 /* Frameworks */,
+				BB0BAC601E4E5A9300703BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioWorld;
+			productName = BioWorld;
+			productReference = BB0BAC621E4E5A9300703BE0 /* BioWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB0BAC751E4E5A9300703BE0 /* BioWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0BAC8D1E4E5A9300703BE0 /* Build configuration list for PBXNativeTarget "BioWorldTests" */;
+			buildPhases = (
+				BB0BAC721E4E5A9300703BE0 /* Sources */,
+				BB0BAC731E4E5A9300703BE0 /* Frameworks */,
+				BB0BAC741E4E5A9300703BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0BAC781E4E5A9300703BE0 /* PBXTargetDependency */,
+			);
+			name = BioWorldTests;
+			productName = BioWorldTests;
+			productReference = BB0BAC761E4E5A9300703BE0 /* BioWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB0BAC801E4E5A9300703BE0 /* BioWorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0BAC901E4E5A9300703BE0 /* Build configuration list for PBXNativeTarget "BioWorldUITests" */;
+			buildPhases = (
+				BB0BAC7D1E4E5A9300703BE0 /* Sources */,
+				BB0BAC7E1E4E5A9300703BE0 /* Frameworks */,
+				BB0BAC7F1E4E5A9300703BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0BAC831E4E5A9300703BE0 /* PBXTargetDependency */,
+			);
+			name = BioWorldUITests;
+			productName = BioWorldUITests;
+			productReference = BB0BAC811E4E5A9300703BE0 /* BioWorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB0BAC5A1E4E5A9300703BE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "UTA Bioworld Team";
+				TargetAttributes = {
+					BB0BAC611E4E5A9300703BE0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7V897NQDU3;
+						ProvisioningStyle = Automatic;
+					};
+					BB0BAC751E4E5A9300703BE0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7V897NQDU3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB0BAC611E4E5A9300703BE0;
+					};
+					BB0BAC801E4E5A9300703BE0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7V897NQDU3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB0BAC611E4E5A9300703BE0;
+					};
+				};
+			};
+			buildConfigurationList = BB0BAC5D1E4E5A9300703BE0 /* Build configuration list for PBXProject "BioWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB0BAC591E4E5A9300703BE0;
+			productRefGroup = BB0BAC631E4E5A9300703BE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB0BAC611E4E5A9300703BE0 /* BioWorld */,
+				BB0BAC751E4E5A9300703BE0 /* BioWorldTests */,
+				BB0BAC801E4E5A9300703BE0 /* BioWorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB0BAC601E4E5A9300703BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0BAC701E4E5A9300703BE0 /* LaunchScreen.storyboard in Resources */,
+				BB0BAC6D1E4E5A9300703BE0 /* Assets.xcassets in Resources */,
+				BB0BAC6B1E4E5A9300703BE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0BAC741E4E5A9300703BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0BAC7F1E4E5A9300703BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB0BAC5E1E4E5A9300703BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0BAC681E4E5A9300703BE0 /* ViewController.swift in Sources */,
+				BB0BAC661E4E5A9300703BE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0BAC721E4E5A9300703BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0BAC7B1E4E5A9300703BE0 /* BioWorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0BAC7D1E4E5A9300703BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0BAC861E4E5A9300703BE0 /* BioWorldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB0BAC781E4E5A9300703BE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0BAC611E4E5A9300703BE0 /* BioWorld */;
+			targetProxy = BB0BAC771E4E5A9300703BE0 /* PBXContainerItemProxy */;
+		};
+		BB0BAC831E4E5A9300703BE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0BAC611E4E5A9300703BE0 /* BioWorld */;
+			targetProxy = BB0BAC821E4E5A9300703BE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB0BAC691E4E5A9300703BE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0BAC6A1E4E5A9300703BE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB0BAC6E1E4E5A9300703BE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0BAC6F1E4E5A9300703BE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB0BAC881E4E5A9300703BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB0BAC891E4E5A9300703BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB0BAC8B1E4E5A9300703BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7V897NQDU3;
+				INFOPLIST_FILE = BioWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UTABioworld.BioWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BB0BAC8C1E4E5A9300703BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7V897NQDU3;
+				INFOPLIST_FILE = BioWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UTABioworld.BioWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BB0BAC8E1E4E5A9300703BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7V897NQDU3;
+				INFOPLIST_FILE = BioWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UTABioworld.BioWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioWorld.app/BioWorld";
+			};
+			name = Debug;
+		};
+		BB0BAC8F1E4E5A9300703BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7V897NQDU3;
+				INFOPLIST_FILE = BioWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UTABioworld.BioWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioWorld.app/BioWorld";
+			};
+			name = Release;
+		};
+		BB0BAC911E4E5A9300703BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7V897NQDU3;
+				INFOPLIST_FILE = BioWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UTABioworld.BioWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BioWorld;
+			};
+			name = Debug;
+		};
+		BB0BAC921E4E5A9300703BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7V897NQDU3;
+				INFOPLIST_FILE = BioWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UTABioworld.BioWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BioWorld;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB0BAC5D1E4E5A9300703BE0 /* Build configuration list for PBXProject "BioWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0BAC881E4E5A9300703BE0 /* Debug */,
+				BB0BAC891E4E5A9300703BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0BAC8A1E4E5A9300703BE0 /* Build configuration list for PBXNativeTarget "BioWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0BAC8B1E4E5A9300703BE0 /* Debug */,
+				BB0BAC8C1E4E5A9300703BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB0BAC8D1E4E5A9300703BE0 /* Build configuration list for PBXNativeTarget "BioWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0BAC8E1E4E5A9300703BE0 /* Debug */,
+				BB0BAC8F1E4E5A9300703BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB0BAC901E4E5A9300703BE0 /* Build configuration list for PBXNativeTarget "BioWorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0BAC911E4E5A9300703BE0 /* Debug */,
+				BB0BAC921E4E5A9300703BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB0BAC5A1E4E5A9300703BE0 /* Project object */;
+}
