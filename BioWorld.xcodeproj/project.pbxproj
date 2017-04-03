@@ -8,12 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		BB0BAC661E4E5A9300703BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0BAC651E4E5A9300703BE0 /* AppDelegate.swift */; };
-		BB0BAC681E4E5A9300703BE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0BAC671E4E5A9300703BE0 /* ViewController.swift */; };
-		BB0BAC6B1E4E5A9300703BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0BAC691E4E5A9300703BE0 /* Main.storyboard */; };
+		BB0BAC681E4E5A9300703BE0 /* ConnectSpecificViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0BAC671E4E5A9300703BE0 /* ConnectSpecificViewController.swift */; };
 		BB0BAC6D1E4E5A9300703BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0BAC6C1E4E5A9300703BE0 /* Assets.xcassets */; };
 		BB0BAC701E4E5A9300703BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0BAC6E1E4E5A9300703BE0 /* LaunchScreen.storyboard */; };
 		BB0BAC7B1E4E5A9300703BE0 /* BioWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0BAC7A1E4E5A9300703BE0 /* BioWorldTests.swift */; };
 		BB0BAC861E4E5A9300703BE0 /* BioWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0BAC851E4E5A9300703BE0 /* BioWorldUITests.swift */; };
+		BB0BAC941E4E60A200703BE0 /* ScanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0BAC931E4E60A200703BE0 /* ScanTableViewController.swift */; };
+		BBDAF5311E927D3100731B59 /* bioworld logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF52E1E927D3100731B59 /* bioworld logo.png */; };
+		BBDAF5321E927D3100731B59 /* bioworld logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF52F1E927D3100731B59 /* bioworld logo@2x.png */; };
+		BBDAF5331E927D3100731B59 /* bioworld logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF5301E927D3100731B59 /* bioworld logo@3x.png */; };
+		BBDAF5371E9287F300731B59 /* bluetooth pairing.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF5341E9287F300731B59 /* bluetooth pairing.png */; };
+		BBDAF5381E9287F300731B59 /* bluetooth pairing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF5351E9287F300731B59 /* bluetooth pairing@2x.png */; };
+		BBDAF5391E9287F300731B59 /* bluetooth pairing@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF5361E9287F300731B59 /* bluetooth pairing@3x.png */; };
+		BBDAF5401E92880500731B59 /* full battery red.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF53A1E92880500731B59 /* full battery red.png */; };
+		BBDAF5411E92880500731B59 /* full battery red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF53B1E92880500731B59 /* full battery red@2x.png */; };
+		BBDAF5421E92880500731B59 /* full battery red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF53C1E92880500731B59 /* full battery red@3x.png */; };
+		BBDAF5431E92880500731B59 /* glove default.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF53D1E92880500731B59 /* glove default.png */; };
+		BBDAF5441E92880500731B59 /* glove default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF53E1E92880500731B59 /* glove default@2x.png */; };
+		BBDAF5451E92880500731B59 /* glove default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF53F1E92880500731B59 /* glove default@3x.png */; };
+		BBDAF54C1E92880E00731B59 /* half battery red.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF5461E92880E00731B59 /* half battery red.png */; };
+		BBDAF54D1E92880E00731B59 /* half battery red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF5471E92880E00731B59 /* half battery red@2x.png */; };
+		BBDAF54E1E92880E00731B59 /* half battery red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF5481E92880E00731B59 /* half battery red@3x.png */; };
+		BBDAF54F1E92880E00731B59 /* low battery red.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF5491E92880E00731B59 /* low battery red.png */; };
+		BBDAF5501E92880E00731B59 /* low battery red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF54A1E92880E00731B59 /* low battery red@2x.png */; };
+		BBDAF5511E92880E00731B59 /* low battery red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF54B1E92880E00731B59 /* low battery red@3x.png */; };
+		BBDAF5541E928DA100731B59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF5521E928DA100731B59 /* Main.storyboard */; };
+		BBDAF5611E929EFC00731B59 /* TutorialSpecificViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDAF5601E929EFC00731B59 /* TutorialSpecificViewController.swift */; };
+		BBDAF5631E92B48800731B59 /* Back Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF5621E92B48800731B59 /* Back Arrow.png */; };
+		BBDAF5651E92B49600731B59 /* List Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BBDAF5641E92B49600731B59 /* List Icon.png */; };
+		D88E1DEE72CDD5AD8291A60A /* Pods_BioWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C371B23D80352E80FC8CE464 /* Pods_BioWorld.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +59,7 @@
 /* Begin PBXFileReference section */
 		BB0BAC621E4E5A9300703BE0 /* BioWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0BAC651E4E5A9300703BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB0BAC671E4E5A9300703BE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BB0BAC6A1E4E5A9300703BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB0BAC671E4E5A9300703BE0 /* ConnectSpecificViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectSpecificViewController.swift; sourceTree = "<group>"; };
 		BB0BAC6C1E4E5A9300703BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB0BAC6F1E4E5A9300703BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB0BAC711E4E5A9300703BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +69,32 @@
 		BB0BAC811E4E5A9300703BE0 /* BioWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0BAC851E4E5A9300703BE0 /* BioWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioWorldUITests.swift; sourceTree = "<group>"; };
 		BB0BAC871E4E5A9300703BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0BAC931E4E60A200703BE0 /* ScanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanTableViewController.swift; sourceTree = "<group>"; };
+		BBDAF52E1E927D3100731B59 /* bioworld logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bioworld logo.png"; path = "../../../Desktop/Icons/bioworld logo.png"; sourceTree = "<group>"; };
+		BBDAF52F1E927D3100731B59 /* bioworld logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bioworld logo@2x.png"; path = "../../../Desktop/Icons/bioworld logo@2x.png"; sourceTree = "<group>"; };
+		BBDAF5301E927D3100731B59 /* bioworld logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bioworld logo@3x.png"; path = "../../../Desktop/Icons/bioworld logo@3x.png"; sourceTree = "<group>"; };
+		BBDAF5341E9287F300731B59 /* bluetooth pairing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bluetooth pairing.png"; path = "../../../Desktop/Icons/bluetooth pairing.png"; sourceTree = "<group>"; };
+		BBDAF5351E9287F300731B59 /* bluetooth pairing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bluetooth pairing@2x.png"; path = "../../../Desktop/Icons/bluetooth pairing@2x.png"; sourceTree = "<group>"; };
+		BBDAF5361E9287F300731B59 /* bluetooth pairing@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bluetooth pairing@3x.png"; path = "../../../Desktop/Icons/bluetooth pairing@3x.png"; sourceTree = "<group>"; };
+		BBDAF53A1E92880500731B59 /* full battery red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full battery red.png"; path = "../../../Desktop/Icons/full battery red.png"; sourceTree = "<group>"; };
+		BBDAF53B1E92880500731B59 /* full battery red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full battery red@2x.png"; path = "../../../Desktop/Icons/full battery red@2x.png"; sourceTree = "<group>"; };
+		BBDAF53C1E92880500731B59 /* full battery red@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full battery red@3x.png"; path = "../../../Desktop/Icons/full battery red@3x.png"; sourceTree = "<group>"; };
+		BBDAF53D1E92880500731B59 /* glove default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "glove default.png"; path = "../../../Desktop/Icons/glove default.png"; sourceTree = "<group>"; };
+		BBDAF53E1E92880500731B59 /* glove default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "glove default@2x.png"; path = "../../../Desktop/Icons/glove default@2x.png"; sourceTree = "<group>"; };
+		BBDAF53F1E92880500731B59 /* glove default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "glove default@3x.png"; path = "../../../Desktop/Icons/glove default@3x.png"; sourceTree = "<group>"; };
+		BBDAF5461E92880E00731B59 /* half battery red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "half battery red.png"; path = "../../../Desktop/Icons/half battery red.png"; sourceTree = "<group>"; };
+		BBDAF5471E92880E00731B59 /* half battery red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "half battery red@2x.png"; path = "../../../Desktop/Icons/half battery red@2x.png"; sourceTree = "<group>"; };
+		BBDAF5481E92880E00731B59 /* half battery red@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "half battery red@3x.png"; path = "../../../Desktop/Icons/half battery red@3x.png"; sourceTree = "<group>"; };
+		BBDAF5491E92880E00731B59 /* low battery red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "low battery red.png"; path = "../../../Desktop/Icons/low battery red.png"; sourceTree = "<group>"; };
+		BBDAF54A1E92880E00731B59 /* low battery red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "low battery red@2x.png"; path = "../../../Desktop/Icons/low battery red@2x.png"; sourceTree = "<group>"; };
+		BBDAF54B1E92880E00731B59 /* low battery red@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "low battery red@3x.png"; path = "../../../Desktop/Icons/low battery red@3x.png"; sourceTree = "<group>"; };
+		BBDAF5531E928DA100731B59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBDAF5601E929EFC00731B59 /* TutorialSpecificViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialSpecificViewController.swift; sourceTree = "<group>"; };
+		BBDAF5621E92B48800731B59 /* Back Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Back Arrow.png"; path = "../../../Desktop/Icons/Back Arrow.png"; sourceTree = "<group>"; };
+		BBDAF5641E92B49600731B59 /* List Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "List Icon.png"; path = "../../../Desktop/Icons/List Icon.png"; sourceTree = "<group>"; };
+		C1EA2300FED3C10E69A0F023 /* Pods-BioWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BioWorld/Pods-BioWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		C371B23D80352E80FC8CE464 /* Pods_BioWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BioWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D24FD2E30516743E3D0843 /* Pods-BioWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-BioWorld/Pods-BioWorld.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D88E1DEE72CDD5AD8291A60A /* Pods_BioWorld.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +123,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08A973BEC1CB0613B7C61743 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1EA2300FED3C10E69A0F023 /* Pods-BioWorld.debug.xcconfig */,
+				C6D24FD2E30516743E3D0843 /* Pods-BioWorld.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7FB9A26E90BE978FB57B3F16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C371B23D80352E80FC8CE464 /* Pods_BioWorld.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BB0BAC591E4E5A9300703BE0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +147,8 @@
 				BB0BAC791E4E5A9300703BE0 /* BioWorldTests */,
 				BB0BAC841E4E5A9300703BE0 /* BioWorldUITests */,
 				BB0BAC631E4E5A9300703BE0 /* Products */,
+				08A973BEC1CB0613B7C61743 /* Pods */,
+				7FB9A26E90BE978FB57B3F16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +165,33 @@
 		BB0BAC641E4E5A9300703BE0 /* BioWorld */ = {
 			isa = PBXGroup;
 			children = (
+				BBDAF5601E929EFC00731B59 /* TutorialSpecificViewController.swift */,
 				BB0BAC651E4E5A9300703BE0 /* AppDelegate.swift */,
-				BB0BAC671E4E5A9300703BE0 /* ViewController.swift */,
-				BB0BAC691E4E5A9300703BE0 /* Main.storyboard */,
-				BB0BAC6C1E4E5A9300703BE0 /* Assets.xcassets */,
+				BB0BAC671E4E5A9300703BE0 /* ConnectSpecificViewController.swift */,
+				BB0BAC931E4E60A200703BE0 /* ScanTableViewController.swift */,
+				BBDAF52E1E927D3100731B59 /* bioworld logo.png */,
+				BBDAF52F1E927D3100731B59 /* bioworld logo@2x.png */,
+				BBDAF5301E927D3100731B59 /* bioworld logo@3x.png */,
+				BBDAF5521E928DA100731B59 /* Main.storyboard */,
+				BBDAF5641E92B49600731B59 /* List Icon.png */,
+				BBDAF5621E92B48800731B59 /* Back Arrow.png */,
 				BB0BAC6E1E4E5A9300703BE0 /* LaunchScreen.storyboard */,
+				BB0BAC6C1E4E5A9300703BE0 /* Assets.xcassets */,
+				BBDAF5461E92880E00731B59 /* half battery red.png */,
+				BBDAF5471E92880E00731B59 /* half battery red@2x.png */,
+				BBDAF5481E92880E00731B59 /* half battery red@3x.png */,
+				BBDAF5491E92880E00731B59 /* low battery red.png */,
+				BBDAF54A1E92880E00731B59 /* low battery red@2x.png */,
+				BBDAF54B1E92880E00731B59 /* low battery red@3x.png */,
+				BBDAF53A1E92880500731B59 /* full battery red.png */,
+				BBDAF53B1E92880500731B59 /* full battery red@2x.png */,
+				BBDAF53C1E92880500731B59 /* full battery red@3x.png */,
+				BBDAF53D1E92880500731B59 /* glove default.png */,
+				BBDAF53E1E92880500731B59 /* glove default@2x.png */,
+				BBDAF53F1E92880500731B59 /* glove default@3x.png */,
+				BBDAF5341E9287F300731B59 /* bluetooth pairing.png */,
+				BBDAF5351E9287F300731B59 /* bluetooth pairing@2x.png */,
+				BBDAF5361E9287F300731B59 /* bluetooth pairing@3x.png */,
 				BB0BAC711E4E5A9300703BE0 /* Info.plist */,
 			);
 			path = BioWorld;
@@ -132,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB0BAC8A1E4E5A9300703BE0 /* Build configuration list for PBXNativeTarget "BioWorld" */;
 			buildPhases = (
+				3EC7C1FDCF30DAF5067984E1 /* [CP] Check Pods Manifest.lock */,
 				BB0BAC5E1E4E5A9300703BE0 /* Sources */,
 				BB0BAC5F1E4E5A9300703BE0 /* Frameworks */,
 				BB0BAC601E4E5A9300703BE0 /* Resources */,
+				F581D1C44EEB206D66CFAA6C /* [CP] Embed Pods Frameworks */,
+				0F6D828FD57F053CFAE34570 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +328,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDAF5541E928DA100731B59 /* Main.storyboard in Resources */,
 				BB0BAC701E4E5A9300703BE0 /* LaunchScreen.storyboard in Resources */,
+				BBDAF5441E92880500731B59 /* glove default@2x.png in Resources */,
 				BB0BAC6D1E4E5A9300703BE0 /* Assets.xcassets in Resources */,
-				BB0BAC6B1E4E5A9300703BE0 /* Main.storyboard in Resources */,
+				BBDAF5411E92880500731B59 /* full battery red@2x.png in Resources */,
+				BBDAF5371E9287F300731B59 /* bluetooth pairing.png in Resources */,
+				BBDAF5321E927D3100731B59 /* bioworld logo@2x.png in Resources */,
+				BBDAF5631E92B48800731B59 /* Back Arrow.png in Resources */,
+				BBDAF5401E92880500731B59 /* full battery red.png in Resources */,
+				BBDAF54D1E92880E00731B59 /* half battery red@2x.png in Resources */,
+				BBDAF54E1E92880E00731B59 /* half battery red@3x.png in Resources */,
+				BBDAF54F1E92880E00731B59 /* low battery red.png in Resources */,
+				BBDAF5421E92880500731B59 /* full battery red@3x.png in Resources */,
+				BBDAF5501E92880E00731B59 /* low battery red@2x.png in Resources */,
+				BBDAF54C1E92880E00731B59 /* half battery red.png in Resources */,
+				BBDAF5651E92B49600731B59 /* List Icon.png in Resources */,
+				BBDAF5391E9287F300731B59 /* bluetooth pairing@3x.png in Resources */,
+				BBDAF5511E92880E00731B59 /* low battery red@3x.png in Resources */,
+				BBDAF5381E9287F300731B59 /* bluetooth pairing@2x.png in Resources */,
+				BBDAF5311E927D3100731B59 /* bioworld logo.png in Resources */,
+				BBDAF5451E92880500731B59 /* glove default@3x.png in Resources */,
+				BBDAF5431E92880500731B59 /* glove default.png in Resources */,
+				BBDAF5331E927D3100731B59 /* bioworld logo@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +370,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F6D828FD57F053CFAE34570 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BioWorld/Pods-BioWorld-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EC7C1FDCF30DAF5067984E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F581D1C44EEB206D66CFAA6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BioWorld/Pods-BioWorld-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB0BAC5E1E4E5A9300703BE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB0BAC681E4E5A9300703BE0 /* ViewController.swift in Sources */,
+				BBDAF5611E929EFC00731B59 /* TutorialSpecificViewController.swift in Sources */,
+				BB0BAC681E4E5A9300703BE0 /* ConnectSpecificViewController.swift in Sources */,
 				BB0BAC661E4E5A9300703BE0 /* AppDelegate.swift in Sources */,
+				BB0BAC941E4E60A200703BE0 /* ScanTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,20 +462,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BB0BAC691E4E5A9300703BE0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB0BAC6A1E4E5A9300703BE0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BB0BAC6E1E4E5A9300703BE0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BB0BAC6F1E4E5A9300703BE0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BBDAF5521E928DA100731B59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBDAF5531E928DA100731B59 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,6 +576,7 @@
 		};
 		BB0BAC8B1E4E5A9300703BE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1EA2300FED3C10E69A0F023 /* Pods-BioWorld.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7V897NQDU3;
@@ -426,6 +590,7 @@
 		};
 		BB0BAC8C1E4E5A9300703BE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D24FD2E30516743E3D0843 /* Pods-BioWorld.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7V897NQDU3;
@@ -514,6 +679,7 @@
 				BB0BAC8C1E4E5A9300703BE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB0BAC8D1E4E5A9300703BE0 /* Build configuration list for PBXNativeTarget "BioWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +688,7 @@
 				BB0BAC8F1E4E5A9300703BE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB0BAC901E4E5A9300703BE0 /* Build configuration list for PBXNativeTarget "BioWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +697,7 @@
 				BB0BAC921E4E5A9300703BE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
