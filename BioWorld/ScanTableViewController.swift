@@ -18,6 +18,8 @@ class ScanTableViewController: UITableViewController, BKCentralDelegate {
     
     @IBOutlet weak var scanButton: UIBarButtonItem!
     
+    @IBOutlet var ScanTableView: UITableView!
+    
     @IBAction func scanPressed(_ sender: UIBarButtonItem) {
         if scanning {
             stopScanning()
@@ -30,15 +32,16 @@ class ScanTableViewController: UITableViewController, BKCentralDelegate {
         super.viewDidLoad()
         
         central.delegate = self
-        //central.addAvailabilityObserver(self)
+        central.addAvailabilityObserver(self as! BKAvailabilityObserver)
         do {
-            let serviceUUID = UUID(uuidString: "6E6B5C64-FAF7-40AE-9C21-D4933AF45B23")!
-            let characteristicUUID = UUID(uuidString: "477A2967-1FAB-4DC5-920A-DEE5DE685A3D")!
+            let serviceUUID = UUID(uuidString: "0000F00D-1212-EFDE-1523-785FEF13D123")!
+            let characteristicUUID = UUID(uuidString: "0000BEEF-1212-EFDE-1523-785FEF13D123")!
+            let calcharacteristicUUID = UUID(uuidString: "00009999-1212-EFDE-1523-785FEF13D123")!
             let configuration = BKConfiguration(dataServiceUUID: serviceUUID, dataServiceCharacteristicUUID: characteristicUUID)
             try central.startWithConfiguration(configuration)
             // Once the availability observer has been positively notified, you're ready to discover and connect to peripherals.
         } catch let error {
-            // Handle error.
+            print("error: \(error)")
         }
     }
     
@@ -115,6 +118,6 @@ class ScanTableViewController: UITableViewController, BKCentralDelegate {
      - parameter remotePeripheral: The remote peripheral that disconnected.
      */
     public func central(_ central: BKCentral, remotePeripheralDidDisconnect remotePeripheral: BKRemotePeripheral) {
-        print("Disconect")
+        print("Disconnect")
     }
 }
