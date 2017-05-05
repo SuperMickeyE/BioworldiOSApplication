@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+// Used for main page swiping mechanic
 class GloveViewController: UIViewController {
     
     
@@ -86,17 +86,17 @@ class GloveViewController: UIViewController {
     }
     
     func updateDeviceUI() {
-        var count = 0
+        //var count = 0
         let active = self.pages[pageIndex]
-        for i in 0...2 {
-            if i != pageIndex && count == 0{
-                let inactive1 = self.pages[i]
-                count = count + 1
-            }
-            else if i != pageIndex && count == 1{
-                let inactive2 = self.pages[i]
-            }
-        }
+//        for i in 0...2 {
+ //           if i != pageIndex && count == 0{
+  //              let inactive1 = self.pages[i]
+   //             count = count + 1
+    //        }
+     //       else if i != pageIndex && count == 1{
+      //          let inactive2 = self.pages[i]
+        //    }
+        //}
         
         activeDeviceBtn.isHidden = active
         deviceDetailsView.isHidden = !active

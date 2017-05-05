@@ -8,7 +8,7 @@
 
 import UIKit
 import BluetoothKit
-
+// This is the class that performs all connection
 class ScanTableViewController: UITableViewController, BKCentralDelegate {
     
     var data = [BKDiscovery]()
@@ -32,11 +32,11 @@ class ScanTableViewController: UITableViewController, BKCentralDelegate {
         super.viewDidLoad()
         
         central.delegate = self
-        central.addAvailabilityObserver(self as! BKAvailabilityObserver)
+        //central.addAvailabilityObserver(self as! BKAvailabilityObserver)
         do {
             let serviceUUID = UUID(uuidString: "0000F00D-1212-EFDE-1523-785FEF13D123")!
             let characteristicUUID = UUID(uuidString: "0000BEEF-1212-EFDE-1523-785FEF13D123")!
-            let calcharacteristicUUID = UUID(uuidString: "00009999-1212-EFDE-1523-785FEF13D123")!
+            //let calcharacteristicUUID = UUID(uuidString: "00009999-1212-EFDE-1523-785FEF13D123")!
             let configuration = BKConfiguration(dataServiceUUID: serviceUUID, dataServiceCharacteristicUUID: characteristicUUID)
             try central.startWithConfiguration(configuration)
             // Once the availability observer has been positively notified, you're ready to discover and connect to peripherals.
@@ -84,7 +84,7 @@ class ScanTableViewController: UITableViewController, BKCentralDelegate {
         try! central.stop()
     }
 
-    // MARK: - Table view data source
+    // Mack: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -110,7 +110,7 @@ class ScanTableViewController: UITableViewController, BKCentralDelegate {
         self.show(alert, sender: self)
     }
     
-    // MARK: - Bluetooth
+    // Mack: - Bluetooth
     
     /**
      Called when a remote peripheral disconnects or is disconnected.
